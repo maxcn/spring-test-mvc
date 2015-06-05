@@ -120,7 +120,7 @@ public class MockHttpServletRequestBuilder implements RequestBuilder, Mergeable 
 	 * @param urlTemplate a URL template; the resulting URL will be encoded
 	 * @param urlVariables zero or more URL variables
 	 */
-	MockHttpServletRequestBuilder(HttpMethod httpMethod, String urlTemplate, Object... urlVariables) {
+	public MockHttpServletRequestBuilder(HttpMethod httpMethod, String urlTemplate, Object... urlVariables) {
 
 		Assert.notNull(urlTemplate, "uriTemplate is required");
 		Assert.notNull(httpMethod, "httpMethod is required");
