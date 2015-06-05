@@ -1,27 +1,24 @@
+##Software Testing
 
-This project facilitates testing _Spring MVC_ server-side and client-side _RestTemplate_-based code.
+This testing project is based on Spring-test-mvc. For details, please [check here](https://github.com/spring-projects/spring-test-mvc)
 
-__NOTE: The project is now incorporated in the spring-test module of Spring Framework 3.2. Applications building against Spring Framework 3.1.x can continue to use this standalone project. However, applications building with Spring Framework 3.2 should use the spring-test module of Spring Framework 3.2 instead. See the Spring Framework [reference guide](http://static.springsource.org/spring-framework/docs/3.2.0.BUILD-SNAPSHOT/reference/htmlsingle/#spring-mvc-test-framework) for more details.__
-
-To get started, see sample [server-side](spring-test-mvc/tree/master/src/test/java/org/springframework/test/web/server/samples) and [client-side](spring-test-mvc/tree/master/src/test/java/org/springframework/test/web/client/samples) tests. The [spring-mvc-showcase](https://github.com/SpringSource/spring-mvc-showcase) project also has many sample tests.
-
-Milestone 2 can be obtained through the
-http://repo.springsource.org/libs-milestone repository.
-
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-test-mvc</artifactId>
-      <version>1.0.0.M2</version>
-      <scope>test</scope>
-    </dependency>
-
-The latest snapshot can be obtained through the http://repo.springsource.org/libs-snapshot repository.
-
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-test-mvc</artifactId>
-      <version>1.0.0.BUILD-SNAPSHOT</version>
-      <scope>test</scope>
-    </dependency>
-
-This project is available under version 2.0 of the [Apache License](http://www.apache.org/licenses/LICENSE-2.0).
+* Preliminary Test
+  * [Code Coverage](https://github.com/kanrourou/software-testing/tree/master/code%20coverage)
+* BDD Test
+ * [HTMLParser](https://github.com/kanrourou/software-testing/tree/master/src/BDDTestcases/HtmlParserTestCases)
+ * [ImageParser](https://github.com/kanrourou/software-testing/tree/master/src/BDDTestcases/ImageParserTestCases)
+ * [Metadata](https://github.com/kanrourou/software-testing/tree/master/src/BDDTestcases/MetadataTestCases)
+* Code Static Analysis
+ * [FindBugs](https://github.com/kanrourou/software-testing/tree/master/code%20static%20analyzer/report/FindBugs)
+ * [PMD](https://github.com/kanrourou/software-testing/tree/master/code%20static%20analyzer/report/PMD)
+* Code Structure Revealment
+ * [CallGraph](https://github.com/kanrourou/software-testing/tree/master/Reverse%20Engineering/CallGraph_tika-core)
+ * [ControlFlow](https://github.com/kanrourou/software-testing/tree/master/Reverse%20Engineering/Control_Flow_Graphs)
+ * [UMLDiagram](https://github.com/kanrourou/software-testing/tree/master/Reverse%20Engineering/UML_Class_Diagrams)
+* Bugs Verification
+ * [Bug1](https://github.com/kanrourou/software-testing/tree/master/Debugging/Bug%201)
+ * [Bug2](https://github.com/kanrourou/software-testing/tree/master/Debugging/Bug%202)
+ * [Bug3](https://github.com/kanrourou/software-testing/tree/master/Debugging/Bug%203)
+ * [Bug4](https://github.com/kanrourou/software-testing/tree/master/Debugging/Bug%204)
+ * [Bug5](https://github.com/kanrourou/software-testing/tree/master/Debugging/Bug%205)
+ * [Bug6](https://github.com/kanrourou/software-testing/tree/master/Debugging/Bug%206)
