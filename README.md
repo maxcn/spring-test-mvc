@@ -3,11 +3,11 @@
 This testing project is based on Spring-test-mvc. For details, please [check here](https://github.com/spring-projects/spring-test-mvc)
 
 * Preliminary Test
-  * [Code Coverage](https://github.com/kanrourou/software-testing/tree/master/code%20coverage)
+  * [Code Coverage](https://github.com/maxcn/spring-test-mvc/tree/master/Code%20Coverage)
 * BDD Test
- * [HTMLParser](https://github.com/kanrourou/software-testing/tree/master/src/BDDTestcases/HtmlParserTestCases)
- * [ImageParser](https://github.com/kanrourou/software-testing/tree/master/src/BDDTestcases/ImageParserTestCases)
- * [Metadata](https://github.com/kanrourou/software-testing/tree/master/src/BDDTestcases/MetadataTestCases)
+ * [ResponseCreators](https://github.com/maxcn/spring-test-mvc/tree/master/BDD%20Test/MockHttpRequest)
+ * [ServletRequestBuilder](https://github.com/maxcn/spring-test-mvc/tree/master/BDD%20Test/ResponseCreators)
+ * [MockHttpRequest](https://github.com/maxcn/spring-test-mvc/tree/master/BDD%20Test/MockHttpRequest)
 * Code Static Analysis
  * [FindBugs](https://github.com/kanrourou/software-testing/tree/master/code%20static%20analyzer/report/FindBugs)
  * [PMD](https://github.com/kanrourou/software-testing/tree/master/code%20static%20analyzer/report/PMD)
