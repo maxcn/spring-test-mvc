@@ -1,6 +1,6 @@
 ##Software Testing
 
-This testing project is based on Spring-test-mvc. For details, please [check here](https://github.com/spring-projects/spring-test-mvc)
+This testing project is based on Spring-test-mvc for Course INF 215. For details, please [check here](https://github.com/spring-projects/spring-test-mvc)
 
 * Preliminary Test
   * [Code Coverage](https://github.com/maxcn/spring-test-mvc/tree/master/Code%20Coverage)
